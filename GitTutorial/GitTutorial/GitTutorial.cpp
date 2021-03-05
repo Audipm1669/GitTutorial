@@ -8,11 +8,15 @@
 using namespace System;
 
 bool Guess(int number) {
-
+	return false;
 }
 
 int main(array<System::String ^> ^args) {
-    std::cout << "Hello World!\n";
+	int guess;
+	do {
+		std::cin >> guess;
+	} while (!Guess(guess));
+	return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
