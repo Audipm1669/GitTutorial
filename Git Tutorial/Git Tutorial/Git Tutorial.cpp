@@ -13,8 +13,16 @@ bool Guess(int number) {
 		target = r.Next() % 100 + 1;
 
 	}
-	if (number == target)return true;
-	return false;
+
+	if (number > target) {
+		std::cout << "Smaller" << std::endl;
+		return false;
+	}
+	else {
+		std::cout << "Bigger" << std::endl;
+		return false;
+	}
+	return true;
 }
 
 int main(array<System::String ^> ^args) {
