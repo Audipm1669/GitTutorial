@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "pch.h"
 #include <iostream>
 #include "stdafx.h"
